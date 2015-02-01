@@ -1,0 +1,99 @@
+body{
+color: #FFFFFF;
+background-color: #3F3F40;
+font-family: "Lucida Sans Unicode";
+}
+
+#o1{
+width:1900px;
+height:800px;
+float:left;
+}
+
+.popupbox{
+width:400px;
+height:400px;
+}
+
+.tooltip{
+background-color: #FFFFFF;
+width:400px;
+height:400px;
+position: absolute;
+}
+
+#diagramarea {
+width:1900px;
+height:800px;
+/*border: 2px solid black;*/
+/*position: relative;*/
+float:left;
+background-color: #4F4F40;
+}
+
+#console{
+width:700px;
+height:100px;
+border: 2px solid black;
+background-color: #EEEEEE;
+position: relative;
+/*overflow: hidden;*/
+}
+
+hr .mconline{
+position: absolute;
+border-width:5px;
+}
+
+
+.square {
+width: 50px;
+height: 50px;
+border:5px solid white;
+background-color:#4396CC;
+position: absolute;
+}
+
+#canvas {
+width: 500px;
+height: 500px;
+border: 2px solid black;
+}
+
+.toolbox {
+/*width: 100px;
+height: 200px;*/
+border: 5px solid white;
+background-color: #E6E6E6;
+position:absolute;
+display: inline;
+overflow: visible;
+}
+
+.toolbox form {
+color: #3F3F40;
+}
+
+#toolbox{
+border: 5px solid white;
+background-color: #E6E6E6;
+float: right;
+color: black;
+position:absolute;
+display: inline;
+overflow: visible;
+}
+
+.bar{
+height:20px;
+max-height: 20px;
+min-height: 20px;
+overflow: hidden;
+background-color:#4396CC;
+text-indent: 10px;
+vertical-align: center;
+letter-spacing: 5px;
+font-size: 10pt;
+text-transform: uppercase;
+color: #FFFFFF;
+}
